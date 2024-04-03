@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Master Mobile Mechanic</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+       
+    </head>
+    <body>
+
+        <div id="container">
+
+	<!-- Use the header area for the website name or logo -->
+		<header>
+			<a href="index.html"><img src="images/mobile-mechanic-master.png" alt="Mobile Mechanic"></a>
+		</header>
+		
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Hero Image -->
+		<div id="hero" class="tablet-desktop">
+			<img src="images/mobile-mech-lgph.jpeg" alt="Mobile mechanic wiring a clients car">
+		</div>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+		<div class="mobile">
+		
+			<p>We are Master Mobile Mechanics. We provide mobile auto services where we come to you!</p>
+			
+			<h3>FREE service quotes!</h3>
+			<p>Call Us Today To Get A Quote or Diagnostic!</p>
+			<p class="tel-link"><a href="tel:3604203246">(360) 420-3246</a></p>
+			
+			<h4>Hours of Availibility:</h4>
+			<ul class="hours">
+				<li>Mon-Fri: 9:00am-6:00pm</li>
+				<li>Saturday: Closed</li>
+				<li>Sunday: Closed</li>
+			</ul>
+			
+			</div>
+		
+			<div class="tablet-desktop">
+		
+				<p>We are Island Mobile Mechanics. We provide mobile auto services where we come to you!</p>
+			
+				<p>We bring conveniency to the auto industry. Our mobile services range from simple oil changes, to transmission swaps.</p> 
+				
+				<p>We offer free service quotes and diagnostic. Diagnostic charges will be applied if over an hour. Contact us today to <span class="action">Get your free quote or diagnostic!</span></p>
+			
+			</div> 
+			
+			<div class="grid">
+			
+			<figure class="frame">
+					<a href="services"><img src="images/mobile-mechanic-working.jpg" alt="Mechanic changing a client's brakes"></a>
+					<figcaption class="pic-text">Services</figcaption>
+				</figure>
+		
+			<figure class="frame">
+					<a href="about.html"><img src="images/mobile-mechanic-e46m3.jpg" alt="Our mechanic diagnosing a BMW M3"></a>
+					<figcaption class="pic-text">Our Mechanics</figcaption>
+				</figure>
+			
+			<figure class="frame">
+					<a href="contact.html"><img src="images/mobile-mechanich1.jpg" alt="Mobile mechanic rotating wheels"></a>
+					<figcaption class="pic-text">Contact Us!</figcaption>
+				</figure>
+			
+			</div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2023. All Rights Reserved.</p>
+			<p><a href="malito:mastermobilemechanic@gmail.net">mastermobilemechanic@gmail.net</a></p>
+		</footer>
+	
+	</div>
+	
+</body>
+
+</html>
